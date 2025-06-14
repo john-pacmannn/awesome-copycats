@@ -122,14 +122,7 @@ in ``rc.lua``, and
 
 in ``theme.lua``, so that you just need to change ``chosen_theme`` variable in ``rc.lua`` to preserve your preferences *and* switch the theme, instead of having file redundancy.
 
-Just do the following:
-
-.. code-block:: shell
-
-    $ cd ~/.config/awesome
-    $ cp rc.lua.template rc.lua
-
-Then, set the variable ``chosen_theme`` in ``rc.lua`` to your preferred theme, do your settings, and restart Awesome (``Mod4 + ctrl + r``).
+Set the variable ``chosen_theme`` in ``rc.lua`` to your preferred theme, do your settings, and restart Awesome (``Mod4 + ctrl + r``).
 
 To customize a theme, head over to ``themes/$chosen_theme/theme.lua``.
 
