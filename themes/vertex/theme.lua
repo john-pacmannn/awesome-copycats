@@ -106,7 +106,7 @@ theme.titlebar_maximized_button_normal_active   = theme.default_dir.."/titlebar/
 theme.titlebar_maximized_button_focus_active    = theme.default_dir.."/titlebar/maximized_focus_active.png"
 
 -- http://fontawesome.io/cheatsheet
-awful.util.tagnames = { "", "", "", "", "", "", "", "" }
+awful.util.tagnames = { "1", "2", "3", "4", "5", "6", "7", "8" }
 
 local markup = lain.util.markup
 

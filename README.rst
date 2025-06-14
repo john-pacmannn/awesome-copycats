@@ -8,7 +8,7 @@ Themes for Awesome WM 4.x
 :Author: Luca CPZ
 :Version: git
 :License: BY-SA_
-:Source: https://github.com/lcpz/awesome-copycats
+:Fork Source: https://github.com/lcpz/awesome-copycats
 
 Description
 ===========
@@ -51,7 +51,7 @@ Features
 Gallery
 =======
 
-**Multicolor**, inspired by lucamanni_
+**Multicolor**, inspired by lucamanni_ 
 
 .. image:: http://dotshare.it/public/images/uploads/650.png
 
@@ -59,31 +59,31 @@ Gallery
 
 .. image:: http://dotshare.it/public/images/uploads/1453.png
 
-**Powerarrow Dark**
+**Powerarrow Dark** (changed)
 
 .. image:: http://dotshare.it/public/images/uploads/649.jpg
 
-**Steamburn**, porting of ok100_'s dwm
+**Steamburn**, porting of ok100_'s dwm (changed)
 
 .. image:: http://dotshare.it/public/images/uploads/648.png
 
-**Blackburn**
+**Blackburn** (changed)
 
 .. image:: http://dotshare.it/public/images/uploads/553.png
 
-**Dremora**
+**Dremora** (changed)
 
 .. image:: http://dotshare.it/public/images/uploads/652.png
 
-**Rainbow**
+**Rainbow** (changed)
 
 .. image:: http://dotshare.it/public/images/uploads/606.png
 
-**Holo**, requested by amouly_
+**Holo**, requested by amouly_ (changed)
 
 .. image:: http://dotshare.it/public/images/uploads/651.jpg
 
-**Copland**, inspired by foozer_
+**Copland**, inspired by foozer_ (changed)
 
 .. image:: http://dotshare.it/public/images/uploads/655.png
 
@@ -96,7 +96,7 @@ Installation
 
 .. code-block:: shell
 
-    git clone --recurse-submodules --remote-submodules --depth 1 -j 2 https://github.com/lcpz/awesome-copycats.git
+    git clone --recurse-submodules --remote-submodules --depth 1 -j 2 https://github.com/john-pacmannn/awesome-copycats.git
     mkdir -p ~/.config/awesome && mv -bv awesome-copycats/{*,.[^.]*} ~/.config/awesome &&  rm -rf awesome-copycats
 
 In case you do not want the Git files, use the following as the second command:
