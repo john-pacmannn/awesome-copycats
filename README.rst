@@ -93,6 +93,7 @@ Gallery
 
 Installation
 ============
+Just do the following:
 
 .. code-block:: shell
 
@@ -100,7 +101,7 @@ Installation
     mkdir -p ~/.config/awesome && mv -bv awesome-copycats/{*,.[^.]*} ~/.config/awesome &&  rm -rf awesome-copycats
 
 
-Just do the following:
+And,
 
 .. code-block:: shell
 
