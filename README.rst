@@ -101,13 +101,6 @@ Just do the following:
     mkdir -p ~/.config/awesome && mv -bv awesome-copycats/{*,.[^.]*} ~/.config/awesome &&  rm -rf awesome-copycats
 
 
-And,
-
-.. code-block:: shell
-
-    cd ~/.config/awesome && cp rc.lua.template rc.lua
-
-
 Usage
 =====
 
