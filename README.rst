@@ -105,8 +105,7 @@ And,
 
 .. code-block:: shell
 
-    $ cd ~/.config/awesome
-    $ cp rc.lua.template rc.lua
+    cd ~/.config/awesome && cp rc.lua.template rc.lua
 
 
 Usage
