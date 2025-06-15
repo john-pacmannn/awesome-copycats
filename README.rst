@@ -99,11 +99,14 @@ Installation
     git clone --recurse-submodules --remote-submodules --depth 1 -j 2 https://github.com/john-pacmannn/awesome-copycats.git
     mkdir -p ~/.config/awesome && mv -bv awesome-copycats/{*,.[^.]*} ~/.config/awesome &&  rm -rf awesome-copycats
 
-In case you do not want the Git files, use the following as the second command:
+
+Just do the following:
 
 .. code-block:: shell
 
-    mv -bv awesome-copycats/* ~/.config/awesome; rm -rf awesome-copycats
+    $ cd ~/.config/awesome
+    $ cp rc.lua.template rc.lua
+
 
 Usage
 =====
