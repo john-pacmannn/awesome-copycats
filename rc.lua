@@ -98,7 +98,7 @@ local themes = {
     "wintermario"           -- 10
 }
 
-local chosen_theme = themes[1]
+local chosen_theme = themes[10]
 local modkey       = "Mod4"
 local altkey       = "Mod1"
 local terminal     = "terminator"
@@ -266,6 +266,25 @@ root.buttons(mytable.join(
 -- {{{ Key bindings
 
 globalkeys = mytable.join(
+    -- Sound keys
+    awful.key({ }, "XF86AudioRaiseVolume",
+    function ()
+        awful.spawn("amixer set Master 5%+")
+    end,
+    {description = "increase volume", group = "media"}),
+
+    awful.key({ }, "XF86AudioLowerVolume",
+    function ()
+        awful.spawn("amixer set Master 5%-")
+    end,
+    {description = "decrease volume", group = "media"}),
+
+    awful.key({ }, "XF86AudioMute",
+    function ()
+        awful.spawn("amixer set Master toggle")
+    end,
+    {description = "mute/unmute volume", group = "media"}),
+
     -- Destroy all notifications
     awful.key({ "Control",           }, "space", function() naughty.destroy_all_notifications() end,
               {description = "destroy all notifications", group = "hotkeys"}),
@@ -831,3 +850,4 @@ tag.connect_signal("property::selected", backham)
 
 -- }}}
 awful.spawn.with_shell("~/.config/awesome/autorun.sh")
+
